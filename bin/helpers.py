@@ -173,14 +173,14 @@ def get_rot_mediapipe(pose3d):
     hip_left = pose3d[2]
     hip_right = pose3d[3]
     hip_up = pose3d[16]
-    
-    foot_r_f = pose3d[20]
-    foot_r_b = pose3d[21]
-    foot_r_u = pose3d[22]
-    
-    foot_l_f = pose3d[17]
-    foot_l_b = pose3d[18]
-    foot_l_u = pose3d[19]
+      
+    foot_r_f = pose3d[17]
+    foot_r_b = pose3d[18]
+    foot_r_u = pose3d[19]
+
+    foot_l_f = pose3d[20]
+    foot_l_b = pose3d[21]
+    foot_l_u = pose3d[22]
     
     # hip
     
